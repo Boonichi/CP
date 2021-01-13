@@ -1,0 +1,32 @@
+# 1 "c:\\Users\\ASUS\\Desktop\\Projects\\Code Problems\\hackerrank\\.vscode\\tasks.json"
+# 1 "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "c:\\Users\\ASUS\\Desktop\\Projects\\Code Problems\\hackerrank\\.vscode\\tasks.json"
+{
+ "version": "2.0.0",
+ "tasks": [
+  {
+   "type": "cppbuild",
+   "label": "C/C++: cpp.exe build active file",
+   "command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\cpp.exe",
+   "args": [
+    "-g",
+    "${file}",
+    "-o",
+    "${fileDirname}\\${fileBasenameNoExtension}.exe"
+   ],
+   "options": {
+    "cwd": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin"
+   },
+   "problemMatcher": [
+    "$gcc"
+   ],
+   "group": {
+    "kind": "build",
+    "isDefault": true
+   },
+   "detail": "compiler: \"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\cpp.exe\""
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+Hướng dẫn câu M:
+Bước 1: Tính cost of a subsegment với đoạn từ 1 đến n
+(Tính kiểu nào cũng được, cách trong code là tính bằng t[] là mảng prefix-sum, s[] là mảng cost of a subsegment từ 1 đến i đang xét, kết quả cần tìm chính là s[n])
+Bước 2: Loại dần các phần tử đầu của mảng, mỗi lần bỏ bớt 1 phần tử cập nhật lại giá trị, tìm giá trị lớn nhất ứng với vị trí loại bỏ phù hợp
+(Trong code thì mỗi lần bỏ tmp sẽ được cập nhật, so sánh với res để lấy giá trị lớn nhất và vị trí l phù hợp)
+Bước 3: Tương tự oại dần các phần tử cuối của mảng, mỗi lần bỏ bớt 1 phần tử cập nhật lại giá trị, tìm giá trị lớn nhất
+(Trong code thì mỗi lần bỏ tmp sẽ được cập nhật, so sánh với res để lấy giá trị lớn nhất)
+Đáp án chính là kết quả nhận được sau 2 lần bỏ các phần tử của mảng
